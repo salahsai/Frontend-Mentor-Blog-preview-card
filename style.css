@@ -41,12 +41,13 @@ body {
 }
 
 .date {
-  font-weight: normal;
-  color: rgba(0, 0, 0, 0.849);
+  font-weight: lighter;
+  /* color: rgba(0, 0, 0, 0.849); */
 }
 
 h2 {
   padding: 10px 0;
+  cursor: pointer;
 }
 
 p {
@@ -62,4 +63,8 @@ p {
 }
 .card-author img {
   width: 32px;
+}
+
+h2:hover {
+  color: hsl(47, 88%, 63%);
 }
